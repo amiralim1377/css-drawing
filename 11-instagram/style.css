@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #f7f7f7;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square {
+  width: 140px;
+  height: 140px;
+  background-color: transparent;
+  border: 12px solid white;
+  border-radius: 45px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-big {
+  height: 60px;
+  width: 60px;
+  background-color: transparent;
+  border: 12px solid white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.circle-small {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
