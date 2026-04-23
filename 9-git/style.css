@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.git {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  background-color: #ef4f36;
+  transform: rotate(45deg);
+  border-radius: 11px;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  -o-border-radius: 11px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+.line {
+  position: absolute;
+  width: 80px;
+  height: 10px;
+  background-color: #fff;
+  top: 25%;
+}
+
+.line-2 {
+  position: absolute;
+  width: 70px;
+  height: 10px;
+  background-color: #fff;
+  top: 50%;
+  left: 13%;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+
+.bullet-1 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  top: 20%;
+  left: 10%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.bullet-2 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  top: 20%;
+  left: 50%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.bullet-3 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  top: 65%;
+  left: 52%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
