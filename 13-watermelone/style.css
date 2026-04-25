@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.watermelone {
+  width: 320px;
+  height: 160px;
+  background-color: red;
+  overflow: hidden;
+  border-left: 20px solid seagreen;
+  border-bottom: 20px solid seagreen;
+  border-right: 20px solid seagreen;
+  border-radius: 0 0 200px 200px;
+  -webkit-border-radius: 0 0 200px 200px;
+  -moz-border-radius: 0 0 200px 200px;
+  -ms-border-radius: 0 0 200px 200px;
+  -o-border-radius: 0 0 200px 200px;
+}
+
+span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  margin: 20px;
+  border-radius: 50%;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+span:nth-child(7),
+span:nth-child(12),
+span:nth-child(14),
+span:nth-child(17) {
+  opacity: 0;
+}
