@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #363636;
+}
+
+.figma {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.first_row-red {
+  width: 50%;
+  height: 100px;
+  background-color: #f24c30;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+}
+
+.first_row-lighRed {
+  width: 50%;
+  height: 100px;
+  background-color: #fa7067;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.second_row-violet {
+  width: 50%;
+  height: 100px;
+  background-color: #9b62fc;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+}
+
+.second_row-cyan {
+  width: 50%;
+  height: 100px;
+  background-color: cyan;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.last-row {
+  width: 50%;
+  height: 100px;
+  background-color: #01cc79;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-top-right-radius: 0;
+}
