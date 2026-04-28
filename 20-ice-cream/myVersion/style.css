@@ -1,0 +1,106 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #2b2e3f;
+}
+
+.ice-cream {
+  width: 300px;
+  height: 400px;
+  background-color: #92bf90;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  position: relative;
+  overflow: visible;
+}
+
+.ice-cream::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 25px;
+  bottom: -25px;
+  left: 50px;
+  background-color: #92bf90;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.ice-cream::before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 25px;
+  bottom: -25px;
+  right: 50px;
+  background-color: #92bf90;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.sticks {
+  position: absolute;
+  width: 40px;
+  height: 180px;
+  top: 100%;
+  left: 50%;
+  background-color: #d79c7a;
+  transform: translate(-50%, 0%);
+  -webkit-transform: translate(-50%, 0%);
+  -moz-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  -o-transform: translate(-50%, 0%);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.first-circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #2b2e3f;
+  left: -1px;
+  top: -55px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.center-circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #2b2e3f;
+  left: 50%;
+  top: -80px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.second-circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #2b2e3f;
+  right: 0px;
+  top: -55px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
