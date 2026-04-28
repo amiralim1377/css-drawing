@@ -20,8 +20,8 @@ body {
 .pikachu::after {
   position: absolute;
   content: "";
-  width: 65px;
-  height: 65px;
+  width: 48px;
+  height: 48px;
   background-color: #e35a45;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -34,8 +34,8 @@ body {
 .pikachu::before {
   position: absolute;
   content: "";
-  width: 64px;
-  height: 65px;
+  width: 48px;
+  height: 48px;
   background-color: #e35a45;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -47,12 +47,9 @@ body {
 }
 
 .nose {
-  width: 30px;
-  height: 30px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 50%;
-  border-bottom-left-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px 8px 16px 16px;
   background-color: black;
   position: absolute;
   left: 50%;
@@ -65,8 +62,8 @@ body {
 }
 
 .eye {
-  width: 100px;
-  height: 100px;
+  width: 64px;
+  height: 64px;
   background-color: black;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -74,57 +71,59 @@ body {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   position: absolute;
+  top: 20%;
 }
 
 .eye-left {
   left: 15%;
-  top: 10%;
 }
 
 .eye-left::after {
   position: absolute;
   content: "";
-  width: 40px;
-  height: 40px;
+  width: 24px;
+  height: 24px;
   background-color: white;
   border-radius: 50%;
   right: 20%;
-  top: 10%;
-  animation: eye 2s ease-in-out infinite;
-  -webkit-animation: eye 2s ease-in-out infinite;
+  top: 13%;
+  animation: eyes 2s ease infinite;
 }
 
 .eye-right {
   right: 15%;
-  top: 10%;
 }
 
 .eye-right::after {
   position: absolute;
   content: "";
-  width: 40px;
-  height: 40px;
+  width: 24px;
+  height: 24px;
   background-color: white;
   border-radius: 50%;
   right: 20%;
-  top: 10%;
-  animation: eye 2s ease-in-out infinite;
+  top: 13%;
+  animation: eyes 2s ease infinite;
 }
 
-@keyframes eye {
+@keyframes eyes {
   0% {
-    right: 20%;
+    right: 44%;
+  }
+
+  50% {
+    right: 15%;
   }
 
   100% {
-    right: 50%;
+    right: 44%;
   }
 }
 
 .mouth {
   position: absolute;
   overflow: hidden;
-  width: 100px;
+  width: 96px;
   height: 120px;
   background-color: #833633;
   left: 50%;
@@ -175,12 +174,12 @@ body {
 
 .tongue {
   position: absolute;
-  width: 80px;
-  height: 50px;
+  width: 64px;
+  height: 64px;
   background-color: #e5777e;
   border-top-right-radius: 999px;
   border-top-left-radius: 999px;
-  bottom: 0;
+  bottom: -20%;
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
