@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1fa8ef;
+  height: 100vh;
+}
+
+.koala {
+  width: 300px;
+  height: 300px;
+  background-color: #a2bac6;
+  position: relative;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.nose {
+  width: 80px;
+  height: 130px;
+  background-color: #bf8260;
+  border-radius: 999px;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  -ms-border-radius: 999px;
+  -o-border-radius: 999px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -20%);
+  z-index: 1;
+  -webkit-transform: translate(-50%, -20%);
+  -moz-transform: translate(-50%, -20%);
+  -ms-transform: translate(-50%, -20%);
+  -o-transform: translate(-50%, -20%);
+}
+
+.eye {
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 25%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.-r {
+  left: 25%;
+}
+
+.-l {
+  left: 50%;
+}
+
+.eyeball {
+  position: absolute;
+  background-color: black;
+  width: 25px;
+  height: 30px;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -20%);
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -20%);
+  -moz-transform: translate(-50%, -20%);
+  -ms-transform: translate(-50%, -20%);
+  -o-transform: translate(-50%, -20%);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  animation: eyeball 3s infinite ease;
+  -webkit-animation: eyeball 3s infinite ease;
+}
+
+@keyframes eyeball {
+  0% {
+    left: 15%;
+  }
+  50% {
+    left: 50%;
+  }
+
+  100% {
+    left: 65%;
+  }
+}
+
+.ear {
+  width: 150px;
+  height: 150px;
+  background-color: #7e9aa8;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  z-index: -1;
+  border: 20px solid #a2bac6;
+}
+
+.ear-left {
+  left: -20%;
+}
+
+.ear-right {
+  right: -20%;
+}
